@@ -5,13 +5,16 @@
   "main": "test.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "build": "wp-scripts build",
-    "start": "wp-scripts start"
+    "build": "wp-scripts build src/index.js src/frontend.js",
+    "start": "wp-scripts start src/index.js src/frontend.js"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "@wordpress/scripts": "^25.5.1"
+    "@wordpress/scripts": "^25.5.1",
+    "bootstrap-icons": "^1.10.3",
+    "react-bootstrap-icons": "^1.10.2",
+    "react-color": "^2.19.3"
   }
 }
